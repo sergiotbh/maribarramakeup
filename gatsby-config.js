@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/maribarramakeup',
   siteMetadata: {
     title: ``,
     siteUrl: `https://www.yourdomain.tld`
@@ -8,5 +9,10 @@ module.exports = {
     options: {
       "icon": "src/images/icon.png"
     }
-  }]
+  },
+  `gatsby-plugin-image`,
+  `gatsby-plugin-sharp`,
+  `gatsby-transformer-sharp`, // Needed for dynamic images
+  'gatsby-plugin-postcss',
+]
 };
