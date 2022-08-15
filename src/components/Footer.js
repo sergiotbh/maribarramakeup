@@ -1,14 +1,15 @@
 import React from 'react';
 import MaribarraLogo from '../images/icon/logo_maribarra_black.svg'
 import Wave from '../images/wave.svg'
-import { Paragraph, SectionTitle, SmallSubtitle } from './TextComponents';
+import { Paragraph, SmallSubtitle } from './TextComponents';
 
 const Footer = () => {
   return(
-    <footer className="relative bg-white grid grid-cols-2 mb-11">
+    <footer className="relative bg-white grid md:grid-cols-2 gap-10 mb-11 mt-11 lg:mt-0">
       <img
         src={Wave}
-        className='absolute bottom-[60%] z-0'   
+        className='hidden lg:block absolute bottom-[60%] z-0'   
+        alt=''
       />
       <div className="flex flex-col items-center z-10">
         <MaribarraLogo

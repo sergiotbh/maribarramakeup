@@ -1,9 +1,6 @@
 import React from 'react';
 import MaribarraLogo from '../images/icon/logo_maribarra_black.svg'
-import FacebookLogo from '../images/icon/icon_fb.svg'
 import InstagramLogo from '../images/icon/icon_ig.svg';
-import { MenuItem } from './TextComponents';
-import { StaticImage } from 'gatsby-plugin-image';
 
 const Header = ({offsetY}) => {
 

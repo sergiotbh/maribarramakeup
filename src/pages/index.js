@@ -120,7 +120,7 @@ const IndexPage = () => {
         />
       </section>
       <section
-        className="relative mt-32"
+        className="md:mt-14 lg:mt-32 relative flex flex-col"
       >
         <div className="px-4 pt-7 lg:px-32 mb-10">
           <Subtitle customStyle="uppercase text-2xl">Book now with</Subtitle>
@@ -131,8 +131,11 @@ const IndexPage = () => {
         </div>
         <StaticImage
           src="../images/maribarra_bg.jpg"
+          className="hidden md:flex -ml-14"
+          placeholder="blurred"
+          quality={60}
         />
-        <div className="absolute top-0 left-1/2">
+        <div className="md:absolute flex top-0 right-2 lg:left-1/2 px-5 lg:p-0 justify-center">
           <BookForm/>
         </div>
       </section>
@@ -216,7 +219,10 @@ const BookForm = () => {
   return(
     <form>
       <section
-        className="relative overflow-hidden bg-white rounded-lg rounded-tl-[100px] py-8 px-10 mt-4 lg:mt-0 drop-shadow-xl w-[486px]"
+        className="relative overflow-hidden bg-white rounded-lg rounded-tl-[100px] py-8 px-10 drop-shadow-md w-[384px] lg:w-[486px]"
+        style={{
+          boxShadow: 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;'
+        }}
       >
         <SectionTitle customStyle="text-yellow uppercase text-right mb-10">Contact me</SectionTitle>
         <TextField
@@ -230,7 +236,7 @@ const BookForm = () => {
         />
         <SubmitButton/>
         <div
-          className="bg-black absolute w-full h-full top-0 left-0 opacity-60 flex items-center justify-center"
+          className="bg-black absolute w-full h-full top-0 left-0 transition-opacity opacity-30 lg:opacity-25 lg:hover:opacity-60 flex items-center justify-center"
         >
           <SmallSubtitle customStyle="text-white">Coming soon</SmallSubtitle>
         </div>

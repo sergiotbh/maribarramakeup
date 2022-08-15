@@ -19,7 +19,7 @@ module.exports = {
   plugins: ["gatsby-plugin-react-helmet", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/icon.png"
+      "icon": "src/images/icon/maribarra_favicon.png"
     }
   },
   {
