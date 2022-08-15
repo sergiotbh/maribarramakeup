@@ -1,0 +1,1 @@
+export const IG_BASE_URL = "https://graph.instagram.com/"

@@ -16,10 +16,15 @@ module.exports = {
           800: '#383361',
           900: '#1B1A44'
         },
+        yellow: '#f3e001',
+        midGrey: '#8c8e90',
+        purplishGrey: '#878da4',
+        borderGrey: '#eeeeee'
       },
       fontFamily: {
         serif: ['Esteban'],
         sans: ['Montserrat'],
+        Roboto: ['Roboto']
       },
       width: {
         '11/10': '110%',
