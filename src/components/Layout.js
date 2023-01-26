@@ -166,11 +166,11 @@ const Background = ({offsetY}) => {
         </div>
         <div/>
         <div
-          className="flex justify-end items-start blur-md -mt-24"
+          className="flex justify-end items-start blur-[2px] -mt-64"
         >
           <StaticImage
             src="../images/home_graphic_06.jpg"
-            width={400}
+            width={450}
             layout="fixed"
             alt=""
           />

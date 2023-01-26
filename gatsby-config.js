@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/maribarramakeup',
+  pathPrefix: '/',
   siteMetadata: {
     title: ``,
     siteUrl: `https://www.yourdomain.tld`

@@ -1,12 +1,12 @@
 import React, { useContext, useReducer } from 'react';
 
-export const AppContext = React.createContext()
-
-export const useAppContext = () => useContext(AppContext)
-
 const initialState = {
   offsetY: 0
 }
+
+export const AppContext = React.createContext(initialState)
+
+export const useAppContext = () => useContext(AppContext)
 
 const reducer = (state, action) => {
   switch (action.type) {

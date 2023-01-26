@@ -23,9 +23,11 @@ const Header = ({offsetY}) => {
           className="absolute right-0 md:right-10 top-8 md:py-4"
         >
           <div className="flex">
-            <InstagramLogo
-              className="scale-75 md:scale-100 hover:fill-yellow fill-black mx-4 hover:cursor-pointer"
-            />
+            <a href="http://instagram.com/maribarramakeup" target="_blank" rel="noreferrer">
+              <InstagramLogo
+                className="scale-75 md:scale-100 hover:fill-yellow fill-black mx-4 hover:cursor-pointer"
+              />
+            </a>
           </div>
         </div>
       </div>
